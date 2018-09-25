@@ -1,0 +1,2 @@
+*.proto linguist-language=protobuf
+*.pb.go linguist-generated=true
