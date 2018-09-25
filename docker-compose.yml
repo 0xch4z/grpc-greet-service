@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+
+  greeter:
+    container_name: ggs_greeter
+    build: ./
+    environment:
+      - HOST=localhost
+      - PORT=3000
+      - ENV=production
+    ports:
+      - 3000:3000
+
